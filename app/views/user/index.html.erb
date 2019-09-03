@@ -1,0 +1,29 @@
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+
+	console.log('hello');
+
+	$("#user_submit").click(function(){
+		console.log("it's me");
+	});
+
+</script>
+
+</head>
+
+<body>
+
+
+
+<label>Steam Profile ID:</label>
+<%= text_field "profile_id", 'user_input' %>
+<br>
+<%= submit_tag "Submit", id:"user_input"%>
+
+
+
+
+</body>
