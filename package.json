@@ -1,0 +1,25 @@
+{
+  "name": "steam-stats",
+  "version": "1.0.0",
+  "description": "1. Go to https://steamcommunity.com/dev/apikey to get an API key.\r 2. Create an environment.rb file in the models directory that sets the API key as such: \"ENV['steam_key']='xxxxxxxxxxxx'.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everettV/steam-stats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everettV/steam-stats/issues"
+  },
+  "homepage": "https://github.com/everettV/steam-stats#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

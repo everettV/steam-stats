@@ -39930,3 +39930,24 @@ Processing by UserController#index as HTML
 Completed 200 OK in 4ms (Views: 1.4ms | Allocations: 745)
 
 
+Started GET "/" for ::1 at 2019-09-03 15:12:42 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 27.2ms | Allocations: 413)
+Completed 200 OK in 76ms (Views: 50.5ms | Allocations: 2119)
+
+
+Started GET "/user/index" for ::1 at 2019-09-03 15:12:47 -0700
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb
+  Rendered user/index.html.erb (Duration: 30.8ms | Allocations: 2002)
+Completed 200 OK in 35ms (Views: 31.8ms | Allocations: 2536)
+
+
+Started GET "/user/index" for ::1 at 2019-09-03 15:12:59 -0700
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb
+  Rendered user/index.html.erb (Duration: 1.3ms | Allocations: 243)
+Completed 200 OK in 5ms (Views: 1.9ms | Allocations: 746)
+
+
